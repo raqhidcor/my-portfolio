@@ -1,19 +1,19 @@
-.Typewriter__wrapper {
-    font-size: 2.2em;
+.TypewriterFooter__wrapper {
+    font-size: 10px;
     color: rgb(250,152,53);
-    font-weight: 100;
+    font-weight: 200;
   }
-  .Typewriter__cursor {
-    font-size: 2.4em;
+  .TypewriterFooter__cursor {
+    font-size: 15px;
     color: rgb(0,70,149);
   }
   
   @media (max-width: 767px) {
-    .Typewriter__wrapper {
-      font-size: 1.4em;
-      font-weight: 300;
+    .TypewriterFooter__wrapper {
+      font-size: 8;
+      font-weight: 100;
     }
-    .Typewriter__cursor {
+    .TypewriterFooter__cursor {
       display: none;
     }
   }

@@ -1,9 +1,9 @@
-import Typewriter from "typewriter-effect";
+import TypewriterFooter from "typewriter-effect";
 import "./Footer.css"
 
 function Footer() {
   return (
-    <Typewriter 
+    <TypewriterFooter 
       options={{
         strings: [
           "© Deployed by: Raquel Hidalgo || 2022 "
