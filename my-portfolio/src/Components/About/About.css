@@ -1,0 +1,132 @@
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.about-right {
+    flex: 1;
+}
+
+
+.about-card {
+    width: 95%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-card.bg {
+    position: absolute;
+    top: 40px;
+    width: 70%;
+    left: 60px;
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-certified-img {
+    width: 120px;
+    height: 120px;
+}
+
+.about-title {
+    font-weight: 400;
+}
+
+.about-subtitle {
+    margin: 20px 0px;
+    font-size: 1rem;
+}
+
+.about-description {
+    font-weight: 200;
+    font-size: 1rem;
+    display: flex;
+    text-align: justify;
+    padding-right: 3%;
+}
+
+.about-certified {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-certified-text {
+    width: 85%;
+}
+
+.about-certified-title {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+@media  screen and (max-width: 599px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .about-left {
+        width: 90%;
+        height: 20vh;
+    }
+    .about-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-card {
+        height: 30vh;
+    }
+
+    .about-card.bg {
+        display: none;
+    }
+
+    .about-right {
+        padding: 0 2%;
+        line-height: 28px;
+    }
+    .about-description, .about-subtitle {
+        font-size: .8rem;
+        margin: 0;
+        
+    }
+    .about-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+
+    }
+    .about-certified-img {
+        width: 90px;
+        height: 90px;
+    }
+    .about-certfied-text h4, p {
+        font-size: .8rem;
+    }
+    .about-certified  {
+        margin-top: 5px;
+    }
+    .about-certified-title {
+        margin-bottom: 0;
+    }
+}
+
