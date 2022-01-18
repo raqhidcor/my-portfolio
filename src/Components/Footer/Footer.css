@@ -1,19 +1,29 @@
-.TypewriterFooter__wrapper {
-    font-size: 10px;
-    color: rgb(250,152,53);
-    font-weight: 200;
+footer {
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 8px;
   }
-  .TypewriterFooter__cursor {
-    font-size: 15px;
-    color: rgb(0,70,149);
+  .footer-copywright {
+    text-align: center;
+  }
+  
+  .footer-body {
+    text-align: center;
   }
   
   @media (max-width: 767px) {
-    .TypewriterFooter__wrapper {
-      font-size: 8;
-      font-weight: 100;
+    .footer-copywright {
+      text-align: center;
     }
-    .TypewriterFooter__cursor {
-      display: none;
+  
+    .footer-body {
+      text-align: center;
     }
+  }
+  
+  .footer h3 {
+    font-size: 1em;
+    color: rgb(32,37,41);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }

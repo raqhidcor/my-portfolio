@@ -1,18 +1,21 @@
-import TypewriterFooter from "typewriter-effect";
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css"
 
 function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
   return (
-    <TypewriterFooter 
-      options={{
-        strings: [
-          "© Deployed by: Raquel Hidalgo || 2022 "
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
+    <Container fluid className="footer">
+      <Row>
+        <Col md="4" className="footer-copywright">
+          <h3>Designed and Developed by Raquel Hidalgo</h3>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {year} </h3>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
