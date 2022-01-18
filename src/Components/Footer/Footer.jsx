@@ -1,14 +1,19 @@
-import "./Footer.css";
+import Typewriter from "typewriter-effect";
+import "./Footer.css"
 
 function Footer() {
   return (
-    <footer>
-    
-        © Deployed by:
-          Raquel Hidalgo || 2022 
-   
-    </footer>
+    <Typewriter
+      options={{
+        strings: [
+          "© Deployed by: Raquel Hidalgo || 2022 "
+        ],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 50,
+      }}
+    />
   );
 }
 
-export default Footer
+export default Footer;
