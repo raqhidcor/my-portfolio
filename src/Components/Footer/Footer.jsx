@@ -3,7 +3,7 @@ import "./Footer.css"
 
 function Footer() {
   return (
-    <Typewriter
+    <Typewriter 
       options={{
         strings: [
           "© Deployed by: Raquel Hidalgo || 2022 "
