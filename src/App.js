@@ -4,7 +4,8 @@ import About from "./Components/About/About.jsx"
 import Tech from "./Components/Tech/Tech.jsx"
 import Github from './Components/Github/Github';
 import Projects from './Components/Projects/Projects.jsx';
-import ContactMe from './Components/ContactMe/ContactMe.jsx'
+import ContactMe from './Components/ContactMe/ContactMe.jsx';
+import Footer from './Components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Github/>
     <Projects/>
     <ContactMe/>
+    <Footer/>
     </div>
   );
 }
