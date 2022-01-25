@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectsCard from "./ProjectsCards";
 import "./Projects.css";
+import 'animate.css';
 
 import pistachio from "../../images/pistachio-ville.png";
 import critterpedia from "../../images/my-critterpedia.png";
@@ -10,7 +11,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading">
+        <h1 className="animate__animated animate__bounce">
           My Recent <strong className="purple"> Projects </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
