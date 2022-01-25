@@ -11,7 +11,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="animate__animated animate__bounce">
+        <h1 className="project-heading">
           My Recent <strong className="purple"> Projects </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
