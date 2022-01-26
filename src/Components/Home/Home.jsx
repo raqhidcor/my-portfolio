@@ -21,7 +21,7 @@ function Home() {
             <Type />
           </div>
           <p className="home-description">
-            I'm a Front-End Web Developer who likes to be active, helping the
+            I'm a Full-Stack Developer who likes to be active, helping the
             people who works besides me and achieve goals together. 🚀
           </p>
         </div>
