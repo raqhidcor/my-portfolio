@@ -16,7 +16,7 @@ function About() {
         <h1 className="about-title">Let me introduce myself</h1>
         <p className="about-sub">
           {" "}
-          I'm a Full-Stack Developer living in Valencia (Spain). 
+          I'm a Junior Software Engineer living in Valencia (Spain). 
         </p>
         <p className="about-description">
           I'm willing to take any challenge to grow in the tech industry; I
